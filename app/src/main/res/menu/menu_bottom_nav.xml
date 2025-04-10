@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="News"
+        android:icon="@drawable/baseline_newspaper"
+        android:id="@+id/mNews"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="Global"
+        android:icon="@drawable/baseline_language"
+        android:id="@+id/mGlobal"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="For You"
+        android:icon="@drawable/baseline_star_rate"
+        android:id="@+id/mForYou"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="Trending"
+        android:icon="@drawable/baseline_library_books"
+        android:id="@+id/mTrending"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>
