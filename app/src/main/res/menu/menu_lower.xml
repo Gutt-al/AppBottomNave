@@ -2,26 +2,33 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:title="News"
-        android:icon="@drawable/baseline_newspaper"
-        android:id="@+id/mNews"
-        app:showAsAction="ifRoom"/>
+        android:id="@+id/mAtualizações"
+        android:icon="@drawable/baseline_data_saver_off"
+        android:title="Atualizações"
+        app:showAsAction="always" />
 
     <item
-        android:title="Global"
-        android:icon="@drawable/baseline_language"
-        android:id="@+id/mGlobal"
-        app:showAsAction="ifRoom"/>
+        android:id="@+id/mLigações"
+        android:icon="@drawable/baseline_local_phone"
+        android:title="Ligações"
+        app:showAsAction="always" />
 
     <item
-        android:title="For You"
-        android:icon="@drawable/baseline_star_rate"
-        android:id="@+id/mForYou"
-        app:showAsAction="ifRoom"/>
+        android:id="@+id/mComunidade"
+        android:icon="@drawable/baseline_people"
+        android:title="Comunidade"
+        app:showAsAction="always" />
 
     <item
-        android:title="Trending"
-        android:icon="@drawable/baseline_library_books"
-        android:id="@+id/mTrending"
-        app:showAsAction="ifRoom"/>
+        android:id="@+id/mConversas"
+        android:icon="@drawable/baseline_chat"
+        android:title="Conversas"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mConfigurações"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="Configurações"
+        app:showAsAction="always" />
+
 </menu>

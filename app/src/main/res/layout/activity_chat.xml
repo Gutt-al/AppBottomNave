@@ -8,5 +8,23 @@
     tools:context=".ChatActivity">
 
 
+    <com.google.android.material.appbar.MaterialToolbar
+
+        android:id="@+id/idmenuChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        app:menu="@menu/menu_chat"
+        app:title="Whats App"/>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+
+        android:id="@+id/idmenuLower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:menu="@menu/menu_lower"
+        app:labelVisibilityMode="labeled"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
