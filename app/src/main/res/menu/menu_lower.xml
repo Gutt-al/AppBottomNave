@@ -7,6 +7,7 @@
         android:title="Atualizações"
         app:showAsAction="always" />
 
+
     <item
         android:id="@+id/mLigações"
         android:icon="@drawable/baseline_local_phone"
@@ -25,10 +26,5 @@
         android:title="Conversas"
         app:showAsAction="always" />
 
-    <item
-        android:id="@+id/mConfigurações"
-        android:icon="@drawable/baseline_settings_24"
-        android:title="Configurações"
-        app:showAsAction="always" />
 
 </menu>
